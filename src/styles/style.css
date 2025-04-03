@@ -1,0 +1,79 @@
+/* Общие стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+    body {
+        font-family: Arial, sans-serif;
+        background: url("../i.jpg") no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    .app {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+        justify-content: center;
+        position: relative;
+    }
+
+    
+    h1 {
+        font-size: 5rem;
+        text-align: center;
+        margin-bottom: auto;
+        padding: 0;
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        color: whitesmoke;
+    }
+
+/* Контейнер для кнопок */
+.buttons-container {
+    display: flex;
+    gap: 2rem;
+}
+
+/* Стили кнопок (теперь кнопка — это только SVG) */
+.button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    transition: transform 0.3s ease;
+    display: inline-flex;
+}
+
+/* Эффект нажатия */
+.button:hover {
+    transform: scale(1.1);
+}
+
+.button:active {
+    transform: scale(0.9);
+}
+
+/* Убеждаемся, что SVG масштабируется нормально */
+.button svg {
+    width: 10rem; /* Размер кнопки */
+    height: 10rem;
+}
+
+/* Адаптивность для мобильных */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 5rem;
+    }
+
+    .button svg {
+        width: 10rem;
+        height: 10rem;
+    }
+}
