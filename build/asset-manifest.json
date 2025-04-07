@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/poker-vote10/static/css/main.96794c99.css",
+    "main.js": "/poker-vote10/static/js/main.fbe49f78.js",
+    "static/js/453.e5ad383a.chunk.js": "/poker-vote10/static/js/453.e5ad383a.chunk.js",
+    "static/media/i.jpg": "/poker-vote10/static/media/i.b57620eb77e740889df3.jpg",
+    "static/media/Green.svg": "/poker-vote10/static/media/Green.26543d522905fad4bbc581b7395e57aa.svg",
+    "static/media/RED.svg": "/poker-vote10/static/media/RED.6da438bf677261bb4fbd0269f2c5271e.svg",
+    "index.html": "/poker-vote10/index.html",
+    "main.96794c99.css.map": "/poker-vote10/static/css/main.96794c99.css.map",
+    "main.fbe49f78.js.map": "/poker-vote10/static/js/main.fbe49f78.js.map",
+    "453.e5ad383a.chunk.js.map": "/poker-vote10/static/js/453.e5ad383a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96794c99.css",
+    "static/js/main.fbe49f78.js"
+  ]
+}
